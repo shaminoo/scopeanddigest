@@ -5,3 +5,4 @@
 #4. use vm for both main and internal controller and how to access parent scope from child
 #5. how to use $watch with variables and functions
 #6. using div to show how watch works using innherhtml
+#7. call digest loop manually

@@ -11,14 +11,9 @@
         <div>
             How strong is the {{vm.force}}
         </div>
+        <div>force in USD = {{vm.forceInUSD}}</div>
         <input type="number" ng-model="vm.force">
-        <div id="bindMe"></div>
         <button ng-click="vm.resetForce()">resetForce</button>
-        <div ng-controller="internalController as vm">
-            <div>{{vm.secret}}</div>
-            <div>internal force is {{vm.main.force}}</div>
-            <input type="number" ng-model="vm.main.force">
-        </div>
     </div>
 </body>
 </html>
