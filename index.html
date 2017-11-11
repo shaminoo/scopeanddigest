@@ -7,13 +7,9 @@
     <script src="mainController.js"></script>
 </head>
 <body>
-    <div ng-controller="mainController as vm">
-        <div>
-            How strong is the {{vm.force}}
-        </div>
-        <div>force in USD = {{vm.forceInUSD}}</div>
-        <input type="number" ng-model="vm.force">
-        <button ng-click="vm.resetForce()">resetForce</button>
+    <div ng-controller="mainController">
+        <input type="text" ng-model="myText">
+        {{helloWorld}}
     </div>
 </body>
 </html>
